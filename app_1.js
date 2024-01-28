@@ -159,15 +159,19 @@ buttonsContainer.addEventListener('click', function(event) {
     switch (buttonId) {
       case 'no0':
         lis.insertAdjacentHTML("beforeend", createListItem(mass[6].id, mass[6].text, mass[6].chY, mass[6].chN))
+        otvet.innerHTML="";
         break;
       case 'yes0':
         lis.insertAdjacentHTML("beforeend", createListItem(mass[1].id, mass[1].text, mass[1].chY, mass[1].chN))
+        otvet.innerHTML="";
         break;
       case 'yes1':
         lis.insertAdjacentHTML("beforeend", createListItem(mass[2].id, mass[2].text, mass[2].chY, mass[2].chN))
+        otvet.innerHTML="";
         break;;
       case 'no1':
         lis.insertAdjacentHTML("beforeend", createListItem(mass[3].id, mass[3].text, mass[3].chY, mass[3].chN))
+        otvet.innerHTML="";
         break;
       case 'yes2':
         otvet.innerHTML = createListItem1("Детская экзема - ", bol)
@@ -180,24 +184,26 @@ buttonsContainer.addEventListener('click', function(event) {
         break;
       case 'no3':
         lis.insertAdjacentHTML("beforeend", createListItem(mass[4].id, mass[4].text, mass[4].chY, mass[4].chN))
+        otvet.innerHTML="";
         break; 
       case 'yes4':
         lis.insertAdjacentHTML("beforeend", createListItem(mass[5].id, mass[5].text, mass[5].chY, mass[5].chN))
+        otvet.innerHTML="";
         break;
       case 'no4':
-        otvet.innerHTML = createListItem1("Тут мы скорее всего перейдем на другую страницу - ", bol)
+        otvet.innerHTML = createListItem1("Другая страница... - ", "Тут мы либо перейдем на другую страницу, либо расширим поток опроса.")
         break;
       case 'yes5':
         otvet.innerHTML = createListItem1("Чесотка - ", bol)
         break;
       case 'no5':
-        otvet.innerHTML = createListItem1("тут скорее всего переход на другую страницу - ", bol)
+        otvet.innerHTML = createListItem1("Другая страница... - ", "Тут мы либо перейдем на другую страницу, либо расширим поток опроса.")
         break;
       case 'yes6':
         otvet.innerHTML = createListItem1("Триховит - ", bol)
         break;
       case 'no6':
-        otvet.innerHTML = createListItem1("другая страница... - ", bol)
+        otvet.innerHTML = createListItem1("Другая страница... - ", "Тут мы либо перейдем на другую страницу, либо расширим поток опроса.")
         break;
       }
     }
