@@ -1,0 +1,23 @@
+body {
+    background-color: aliceblue;
+    font-size: medium;
+}
+
+.centr {
+    text-align: center;
+}
+
+.cont{
+    width: 80%;
+    margin: auto;
+}
+
+.but {
+    margin-top: 15px;
+}
+
+.siz {
+    font-size: 6.5 rem;
+    font-weight: bold;
+    color: azure;
+}
